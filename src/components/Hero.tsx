@@ -1,4 +1,3 @@
-// Hero 섹션 컴포넌트 내용export default function Hero() {
   return (
     <section className="text-center py-24 bg-gradient-to-br from-purple-800 to-black">
       <h1 className="text-4xl font-bold mb-4">챌린저가 만든 대리의 기준</h1>
