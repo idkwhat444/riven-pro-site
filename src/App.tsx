@@ -1,5 +1,5 @@
-export default function App() {
-  return <h1>RivenTeam 리디자인 시작</h1>;
+import Hero from './components/Hero'
+import Pricing from './components/Pricing'
 import Gallery from './components/Gallery'
 
 export default function App() {
@@ -7,7 +7,7 @@ export default function App() {
     <div className="bg-black text-white min-h-screen">
       <Hero />
       <Pricing />
-      <Gallery />  {/* 여기 추가 */}
+      <Gallery />
     </div>
   );
 }
